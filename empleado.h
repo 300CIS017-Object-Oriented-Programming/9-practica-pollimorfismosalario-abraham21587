@@ -10,7 +10,7 @@ using namespace std;
 
 
 class empleado {
-private:
+protected:
     string nombre;
     double salariobase;
 public:
@@ -18,7 +18,7 @@ public:
     empleado(string nombre, double salariobase);
     virtual ~empleado();
 
-    virtual double calculatesalario();
+    virtual double calcularsalario() ;
     string getnombre();
     double getsalario();
 };

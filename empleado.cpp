@@ -11,7 +11,7 @@ empleado::empleado(string nombre, double salariobase)
 
 empleado::~empleado() { }
 
-double empleado::calculatesalario() {
+double empleado::calcularsalario() {
     return salariobase;
 }
 
