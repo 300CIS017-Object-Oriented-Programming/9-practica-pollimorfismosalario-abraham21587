@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-desarrolladorsenior::desarrolladorsenior(string nombre, double salario)
+desarrolladorsenior::desarrolladorsenior(string nombre, double salariobase)
 :empleado(nombre, salariobase) {}
 
 

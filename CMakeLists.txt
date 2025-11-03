@@ -9,4 +9,10 @@ add_executable(9_practica_pollimorfismosalario_abraham21587 main.cpp
         desrolladorjunior.cpp
         desrolladorjunior.h
         desarrolladorsenior.cpp
-        desarrolladorsenior.h)
+        desarrolladorsenior.h
+        lidertecnico.cpp
+        lidertecnico.h
+        tester.cpp
+        tester.h
+        nomina.cpp
+        nomina.h)

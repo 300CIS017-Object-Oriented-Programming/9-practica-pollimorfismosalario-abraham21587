@@ -11,7 +11,7 @@ using namespace std;
 
 class desarrolladorsenior: public empleado{
 public:
-    desarrolladorsenior(string nombre, double salario);
+    desarrolladorsenior(string nombre, double salariobase);
     double calcularsalario() override;
 
 };
